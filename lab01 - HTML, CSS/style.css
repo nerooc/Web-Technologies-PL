@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.title {
+    width: 70vw;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Nunito;
+    border: 5px solid red;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container__image {
+    margin-top: 50px;
+    width: 28vw;
+    min-width: 400px;
+}
+
+.container__table {
+    float: left;
+    margin-top: 50px;
+    height: 400px;
+    width: 30vw;
+    border: darkblue 3px solid;
+    font-family: Nunito;
+    border-spacing: 0;
+}
+
+th {
+    font-size: 23px;
+}
+
+td {
+    text-align: center;
+    font-size: 20px;
+}
+
+tr {
+    height: 35px;
+}
+
+thead tr {
+    background-color: cyan;
+}
+
+tbody tr th,
+tfoot tr th {
+    background-color: plum;
+}
+tbody tr:nth-child(even) {
+    background-color: rgb(216, 215, 215);
+}
+tbody tr:nth-child(odd) {
+    background-color: lime;
+}
+
+tfoot tr td {
+    background-color: palegoldenrod;
+}
+
+thead tr th {
+    padding: 0;
+}
+
+.button {
+    position: absolute;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: black 2px solid;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    font-family: Nunito;
+
+    transition: 0.2s ease-in;
+}
+.button:hover {
+    color: white;
+    background-color: black;
+}

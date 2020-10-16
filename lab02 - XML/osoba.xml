@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/css" href="osoba.css"?>
+<zajecia>
+    <grupy>
+        <grupa>
+            <osoba>
+                <nazwisko>Abacki</nazwisko>
+                <imie>Adam</imie>
+                <email>abacki@fis.agh.edu.pl</email>
+            </osoba>
+            <osoba>
+                <nazwisko>Babacki</nazwisko>
+                <imie>Marek</imie>
+                <email>babacki@fis.agh.edu.pl</email>
+            </osoba>
+            <osoba>
+                <nazwisko>Cabacki</nazwisko>
+                <imie>Bogdan</imie>
+                <email>cabacki@fis.agh.edu.pl</email>
+            </osoba>
+            <osoba>
+                <nazwisko>Dabacka</nazwisko>
+                <imie>Ewa</imie>
+                <email>dabacka@fis.agh.edu.pl</email>
+            </osoba>
+        </grupa>
+        <grupa>
+            <osoba>
+                <nazwisko>Kowalski</nazwisko>
+                <imie>Adam</imie>
+                <email>abacki@fis.agh.edu.pl</email>
+            </osoba>
+            <osoba>
+                <nazwisko>Malinowski</nazwisko>
+                <imie>Marek</imie>
+                <email>babacki@fis.agh.edu.pl</email>
+            </osoba>
+            <osoba>
+                <nazwisko>Maliniak</nazwisko>
+                <imie>Bogdan</imie>
+                <email>cabacki@fis.agh.edu.pl</email>
+            </osoba>
+            <osoba>
+                <nazwisko>Kowalska</nazwisko>
+                <imie>Ewa</imie>
+                <email>dabacka@fis.agh.edu.pl</email>
+            </osoba>
+        </grupa>
+    </grupy>
+</zajecia>

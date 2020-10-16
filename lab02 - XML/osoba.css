@@ -1,0 +1,43 @@
+zajecia{
+    margin: 0;
+    padding: 0;
+}
+
+grupa {
+    display: block;
+    font-family: sans-serif;
+    border: 3px double black;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+
+osoba {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid gray;
+    background-color: rgb(236, 236, 236);
+}
+
+osoba:nth-child(even) {
+    background-color: yellow;
+}
+
+osoba:nth-child(even) email {
+    color: black;
+}
+
+nazwisko {
+    text-decoration: underline;
+    color: red;
+}
+
+imie {
+    color: green;
+}
+
+email {
+    font-style: italic;
+    color: blue;
+}

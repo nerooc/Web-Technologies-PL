@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form | Books</title>
+  
+  <style>
+    #container {
+      background: #089999; 
+      width: 480px; 
+      padding: 5px; 
+      border: 2px solid blue; 
+      margin: 20px;
+    }
+    
+    #text-input { 
+      -moz-appearance: none; 
+      -webkit-appearance: none; 
+      margin-down: 5px;  
+      margin-left: 50px; 
+      height: 20px;
+    }
+    
+    #text-input:first-of-type{
+      margin-bottom: 10px;
+      margin-left: 70px;
+    }
+    
+    fieldset {
+      width: 500px; 
+      margin: auto;
+    }
+    
+    label {
+      padding: 5px;
+    }
+    
+    legend {
+      border: 5px solid #DDDDDD; 
+      font-weight: bold; 
+      background-color: #F0F0F0; 
+      color: #BBBBBB; 
+      padding: 5px;
+    }
+  </style>
+  
+</head>
+<body style="width: 100%;">
+  <form action="cgi-bin/zadanie.py" method="post">
+    <fieldset>
+      <legend>Books</legend>
+      <div id="container">
+      <label for="title">Title</label>
+      <input id="text-input" type="text" name="title" value="" />
+      </br>
+      <label for="author">Author</label>
+      <input id="text-input" type="text" name="author" value="" /></div>
+    <input type="submit" value="Send" />
+    </fieldset>
+  </form>
+</body>
+</html>

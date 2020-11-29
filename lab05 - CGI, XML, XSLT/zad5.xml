@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="zad5.xsl"?>
+<!-- zbieżność osób i nazwisk przypadkowa, w razie błędów wprowadzę jeszcze poprawki -->
+<uczelnia
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="zad2c.xsd">
+    <wydzial>
+        <nazwawydzialu>Wydział Fizyki i Informatyki Stosowanej</nazwawydzialu>
+        <kierunek>
+            <nazwakierunku>Informatyka Stosowana</nazwakierunku>
+            <student>
+                <imie>Jan</imie>
+                <drugieimie>Jakub</drugieimie>
+                <nazwisko>Kowalski</nazwisko>
+                <numeridx>152</numeridx>
+            </student>
+
+            <student>
+                <imie>Tomasz</imie>
+                <drugieimie>Karol</drugieimie>
+                <nazwisko>Nowak</nazwisko>
+                <numeridx>166</numeridx>
+            </student>
+
+            <student>
+                <imie>Test</imie>
+                <drugieimie>Tset</drugieimie>
+                <nazwisko>Testowski</nazwisko>
+                <numeridx>256</numeridx>
+            </student>
+        </kierunek>
+
+        <kierunek>
+            <nazwakierunku>Fizyka Techniczna</nazwakierunku>
+            <student>
+                <imie>Kuba</imie>
+                <drugieimie>Łukasz</drugieimie>
+                <nazwisko>Babacki</nazwisko>
+                <numeridx>142</numeridx>
+            </student>
+
+            <student>
+                <imie>Piotr</imie>
+                <drugieimie>Paweł</drugieimie>
+                <nazwisko>Bądecki</nazwisko>
+                <numeridx>163</numeridx>
+            </student>
+
+            <student>
+                <imie>Test</imie>
+                <drugieimie>Tset</drugieimie>
+                <nazwisko>Atestowski</nazwisko>
+                <numeridx>256</numeridx>
+            </student>
+        </kierunek>
+    </wydzial>
+</uczelnia>

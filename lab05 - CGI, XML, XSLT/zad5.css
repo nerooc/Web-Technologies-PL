@@ -1,0 +1,67 @@
+.uczelnia {
+    background-color: orangered;
+    text-transform: uppercase;
+}
+
+.wydzial {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.nazwawydzialu {
+    display: block;
+    border: 3px solid red;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+}
+
+table {
+    width: 500px;
+    border-bottom: gray 5px solid;
+    border-right: gray 5px solid;
+    border-left: lightgray 5px solid;
+    border-top: lightgray 5px solid;
+}
+
+tr {
+    height: 30px;
+}
+tr:nth-of-type(2),
+tr:nth-of-type(4),
+tr:nth-of-type(5),
+tr:nth-of-type(6) {
+    color: blue;
+}
+tr:nth-of-type(7),
+tr:nth-of-type(11),
+tr:nth-of-type(9),
+tr:nth-of-type(10) {
+    color: green;
+}
+
+td {
+    padding: 5px;
+    border-bottom: lightgray 1px solid;
+    border-right: lightgray 1px solid;
+    border-left: gray 1px solid;
+    border-top: gray 1px solid;
+}
+
+.nazwakierunku {
+    text-transform: uppercase;
+    background-color: bisque;
+    padding: 10px;
+}
+
+.spis {
+    background-color: aliceblue;
+}
+
+.student {
+    background-color: aliceblue;
+}

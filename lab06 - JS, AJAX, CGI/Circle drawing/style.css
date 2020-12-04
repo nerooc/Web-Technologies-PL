@@ -1,0 +1,37 @@
+.page {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.form {
+    display: flex;
+    flex-flow: column;
+    width: 300px;
+    padding: 50px;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.placeholder {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;
+    border: 350px;
+    border: 2px solid black;
+}
+

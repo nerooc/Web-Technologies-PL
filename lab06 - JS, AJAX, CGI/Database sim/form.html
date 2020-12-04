@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form | Books</title>
+        <script defer src="./script.js"></script>
+        <style>
+            #container {
+                background: #089999;
+                width: 480px;
+                padding: 5px;
+                border: 2px solid blue;
+                margin: 20px;
+            }
+
+            #text-input {
+                -moz-appearance: none;
+                -webkit-appearance: none;
+                margin-bottom: 5px;
+                margin-left: 50px;
+                height: 20px;
+            }
+            #text-input:first-of-type {
+                margin-left: 70px;
+            }
+
+            fieldset {
+                width: 500px;
+                margin: auto;
+            }
+
+            label {
+                padding: 5px;
+            }
+
+            legend {
+                border: 5px solid #DDDDDD;
+                font-weight: bold;
+                background-color: #F0F0F0;
+                color: #BBBBBB;
+                padding: 5px;
+            }
+
+            table {
+                margin: auto;
+                border-collapse: collapse;
+                border: 2px solid blue;
+            }
+
+            th {
+                background: #fffd9c;
+                width: 170px;
+            }
+
+            #first-row {
+                text-align: center;
+            }
+
+            tr {
+                text-align: center;
+                background-color: #f0fffd;
+                height: 30px;
+            }
+            tr:nth-child(even) {
+                background-color: #ffe6fc;
+            }
+
+        </style>
+    </head>
+    <body style="width: 100%;">
+        <form>
+            <fieldset>
+                <legend>Books</legend>
+                <div id="container">
+                    <label for="title">Title</label>
+                    <input id="text-input" type="text" name="title" value=""/>
+                </br>
+                <label for="author">Author</label>
+                <input id="text-input" type="text" name="author" value=""/></div>
+            <button onclick="addRecord(event)">Dodaj rekord</button>
+            <button onclick="showRecords(event)">Lista rekord�w</button>
+        </fieldset>
+    </form>
+    <div class="placeholder"></div>
+
+</body>
+</html>

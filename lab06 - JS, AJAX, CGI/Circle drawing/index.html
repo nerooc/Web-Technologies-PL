@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script defer src="./script.js"></script>
+        <link rel="stylesheet" href="./style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="page">
+            <form class="form">
+                <label for="X">X VALUE</label>
+                <input name="X" type="number" value="X"/>
+
+                <label for="Y">Y VALUE</label>
+                <input name="Y" type="number" value="Y"/>
+
+                <label for="Promien">Promień</label>
+                <input name="Promien" type="number" value="Promien"/>
+
+                <label for="Kolor">Kolor</label>
+                <input name="Kolor" type="text"/>
+
+                <button class="btn" onclick="draw(event);">Wykonaj</button>
+            </form>
+
+            <div class="placeholder">
+                <svg class="container circle-svg"></svg>
+                <canvas width="400px" height="300px" class="container circle-canvas"></canvas>
+            </div>
+        </div>
+    </body>
+</html>

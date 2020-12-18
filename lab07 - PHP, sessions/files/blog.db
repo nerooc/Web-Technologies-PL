@@ -1,0 +1,9 @@
+44
+tomasz_gajda@outlook.com+2020-12-16 20:36:33145
+a:3:{s:5:"email";s:24:"tomasz_gajda@outlook.com";s:4:"date";s:19:"2020-12-16 20:36:33";s:4:"note";s:38:"Lorem ipsum dolor... Notatki dzialaja.";}44
+tomasz_gajda@outlook.com+2020-12-16 20:37:05142
+a:3:{s:5:"email";s:24:"tomasz_gajda@outlook.com";s:4:"date";s:19:"2020-12-16 20:37:05";s:4:"note";s:35:"Jeszcze jedna notatka dla pewnosci!";}34
+test@gmail.com+2020-12-16 20:38:33119
+a:3:{s:5:"email";s:14:"test@gmail.com";s:4:"date";s:19:"2020-12-16 20:38:33";s:4:"note";s:22:"Testowa notatka raz :)";}34
+test@gmail.com+2020-12-16 20:38:45119
+a:3:{s:5:"email";s:14:"test@gmail.com";s:4:"date";s:19:"2020-12-16 20:38:45";s:4:"note";s:22:"Testowa notatka dwa :)";}
